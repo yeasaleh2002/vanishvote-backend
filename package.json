@@ -5,6 +5,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "dev": "nodemon server.js",
+    "vercel-start": "node server.js",
     "build": "babel server.js -d dist"
   },
   "keywords": [],
